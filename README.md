@@ -1,21 +1,17 @@
 # Factors Impacting Energy Performance
-
-1) Introduction
+##Introduction
 
 In this project, we explore the following questions:
 
-Do variables such as glazing, surface area, overall height and relative compactness explain the variability in the total heating load of buildings?
+    Do variables such as glazing, surface area, overall height and relative compactness explain the variability in the total heating load of buildings?
 
-Are there variables that once introduces improve the accuracy of these features in prediction of heating load?
+    Are there variables that once introduces improve the accuracy of these features in prediction of heating load?
 
-Null Hypothesis: The variables of glazing, surface area, overall height and relative compactness do not affect heating load.
+    Null Hypothesis: The variables of glazing, surface area, overall height and relative compactness do not affect heating load.
 
-Alternative Hypothesis: Heating Load in Buildings follow predictable patterns based on glazing, surface area, overall height and relative compactness.
+    Alternative Hypothesis: Heating Load in Buildings follow predictable patterns based on glazing, surface area, overall height and relative compactness.
 
-The hypotheses were tested with this dataset.
-
-Data exploration and analyses were performed using Python language in a Jupyter notebook. We've leveraged several packages such as pandas, seaborn, statsmnodel, sklearn for data preparation, visualization, analyses and machine learning algorithms to explore the inquiries stated above.
-2) Background
+## Background
 
 Heating Load is an important factor that contributes to the energy performance of a building. In most climates, heating loads contribute the largest portion of energy usage in buildings, and are at the forefront of sustainability efforts. Heating loads will ideally be as low as possible and are often cut off at 15/kWh for passive house building principles.
 
@@ -43,7 +39,6 @@ Data Fields
 
     Cooling Load
 
-3) Method
+## Method
 
 The data used was taken from UCI Machine Learning Repository. A dataframe was created and exploritory data analysis was performed. Four machine learning regression models were used; Linear Regression, Decision Tree, Random Forest and Support Vector Regression (SVR). The outcome variable for each model was 'Heating Load'. Each model was evaluated by calculating Mean Squared Error for both test and train, Root Mean Squared Error for both test and train, MSE Ratio, Relative Difference and R2 Score.
-Data
